@@ -1,0 +1,154 @@
+
+form [type="submit"] {
+	cursor: pointer;
+	position: relative;
+	left: 290px;
+			display: inline-block;
+			margin-top: 2px;
+			padding: 0.40em 1.5em;
+			background: grey;
+			text-decoration: none;
+			font-size: 22px;
+			letter-spacing: 6px;
+			font-weight: bold;
+			color: white;
+			text-align: center;
+		}
+/*form [type="submit"]:hover {
+  background: #43B8A1;
+				color: #FFF;
+*/	
+.id{
+	margin: 0px 10px;
+}
+.label_id{
+		margin: 0px 10px;
+
+}
+.label_user{
+		margin: 0px 15px;
+}
+.date{
+	margin: 0px 8px;
+}
+.time{
+	margin: 3px 12px;
+}
+.paciente{
+	margin: 3px 17px;
+}
+.medico{
+	margin: 3px 12px;
+}
+.estado{
+	margin: 3px 2px;
+}
+.observaciones{
+		margin: 10px 200px;
+
+}
+.label_hora{
+		margin: 0px 13px;
+
+}
+.label_paciente{
+	margin: 0px -12px;
+}
+
+.label_observaciones{
+	position: relative;
+	top: 100px;
+	left: -250px;
+
+}
+.label_observaciones1{
+	position: relative;
+	top: -50px;
+	left: 180px;
+}
+.observacioness{
+
+		margin: 10px 290px;
+
+}
+
+/*actualizar user*/
+.label_observacionees{
+position: relative;
+top: 100px;
+right: 280px;
+}
+.observacioones{
+	margin: 10px 285px;
+}
+/*agregar medico*/
+
+.label_nombre{
+position: relative;
+right: 25px;
+}
+.label_correo{
+	position: relative;
+right: -8px;
+}
+
+.label_especialidad{
+	position: relative;
+right: -8px;
+}
+.identificacion{
+	margin: 0px 35px;
+}
+.correo{
+
+position: relative;
+right: -40px;
+}
+.especialidad{
+
+	margin: 0px 8px;
+}
+/*pie de pagina
+
+
+
+
+/*actuazar*/
+.medico1{
+	margin: 3px 15px;
+}
+.estado1{
+		margin: 3px 3px;
+}
+/*agregar medico*/
+.telefono{
+	position: relative;
+	left:  5px;
+}
+.label_especialidad{
+	position: relative;left: 7px;
+}
+.especialidadd{
+		position: relative;left: 7px;
+
+}
+.label_email{
+			position: relative;left: 5px;
+
+}
+.emai{
+position: relative;left: 40px;
+}
+.label_nombre{
+	position: relative;
+	left: -5px;
+
+}
+.nombree{
+	position: relative;
+	left: 14px;
+}
+.sexoo{
+	position: relative;
+	left: 25px;
+}

@@ -1,0 +1,692 @@
+*{
+-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+
+}
+
+.titulo{
+font-size: 20px;
+position: absolute;
+top: 15px;
+left:35%;
+color: black;
+letter-spacing: 6px;
+text-align: center;
+}
+
+.container{
+text-align: center;
+background-color:grey;
+width:40%; 
+position: relative;
+top:80px; 
+left: 45%;
+border:3px solid #ccc;
+
+}
+
+.container ul {
+	list-style: none;
+
+}
+.container li{
+	color: white;
+	list-style: none;
+	font-size: 20px;
+	 letter-spacing: 8px
+}
+
+/*bloque de inicio*/
+ aside {
+	background-color: white;
+	position: relative;
+	top:-70px;
+    left: -5px;
+	float: left;
+	width: 23%;
+	color:#fff;
+	padding:10px;
+    margin: -30px -20px;
+    border-radius:5px;
+
+
+
+}
+
+.inicio ul li{
+	border-radius:5px;
+	margin: 12px 0px;
+	width:98%;
+	color:black;
+		 display:block;
+
+	  cursor:pointer;
+	  margin-top:3px;
+	  border:1px solid #ccc;
+	  border-bottom:3px solid gray;
+	  font-size:18px;
+	  text-decoration:none;
+}
+.inicio span {
+	position: relative;
+	top: 10px;
+	right: -5px;
+    display:block;
+	color: brown;
+}
+aside a{
+	position: relative;
+	top: -10px;
+	 display:block;
+	 margin: -6px;
+	padding: 10px 40px;
+	color: black;
+	text-decoration: none;
+}
+aside li:hover {
+	background:aqua;
+	  color: white;
+	  border-bottom:2px solid gray;
+	}
+
+/*contenido de vista*/
+ .article{
+
+ 	position: relative;
+ 	top: 100px;
+ 	right: -10px;
+     margin: 10px 0px;
+	 margin-left:1%;
+	float: left;
+	width: 76%;
+ 	padding:20px;
+ 	background: rgb(255, 255, 255);
+	border-radius:5px;
+ }
+
+.mensaje2 {
+	position: relative;
+	top: -30px;
+	
+	background: green;
+	padding:5px;
+	color:#fff;
+	border-radius:5px;
+	text-align: center;
+	font-size: 1.0em;
+	margin-bottom: 5px;
+  box-shadow: 0 0px 2px #013D82 !important;
+
+
+}
+.principal_vista{
+
+}
+.principal_vista p {
+	text-align: center;
+color: brown; 
+ }
+ .principal_vista span {
+ 	color:black ;
+ }
+ .principal_vista .icon-calendar{
+position: absolute;
+top: -85px;
+right: 70px;
+font-size:75px;
+ }
+ .principal_vista .icon-user{
+position: absolute;
+top: -85px;
+right: 70px;
+font-size:75px;
+ }
+ 
+ .principal_vista .icon-man{
+position: absolute;
+top: -85px;
+right: 70px;
+font-size:75px;
+ }
+ 
+
+ .principal_vista .icon-list{
+position: absolute;
+top: -85px;
+right: 70px;
+font-size:75px;
+ }
+  .principal_vista .icon-history{
+position: absolute;
+top: -85px;
+right: 70px;
+font-size:75px;
+ }
+
+   .principal_vista .icon-users{
+   	position: absolute;
+   	top: -80px;
+   	right: 70px;
+font-size:75px;
+   	}
+ .vista {
+background-color: white	;
+position: absolute;
+top: 55%;
+right: 55%;
+width: 15%;
+ }
+
+ .vista1 {
+background-color: white	;
+
+position: absolute;
+top: 55%;
+right: 15%;
+width: 15%;
+
+ }
+ .vista2 {
+background-color: white	;
+position: absolute;
+top: 85%;
+right: 55%;
+
+width: 15%;
+
+ }
+ 
+
+ .vista3 {
+background-color: white	;
+position: absolute;
+top: 85%;
+right: 15%;
+width: 15%;
+
+ }
+ 
+ .vista4 {
+background-color: white	;
+position: absolute;
+top: 55%;
+right: 35%;
+
+width: 15%;
+ }
+
+ .vista5 {
+background-color: white	;
+position: absolute;
+top: 85%;
+right: 35%;
+width: 15%;
+
+ }
+ /*mensaje*/
+
+.wrapp {
+
+	font-size: 10px;
+	padding: 0% 1%;
+	margin: 10px;
+
+}
+
+.mensaje {
+	position: relative;
+	top: -30px;
+	
+	background: green;
+	padding:5px;
+
+	color:#fff;
+	border-radius:5px;
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 5px;
+  box-shadow: 0 0px 2px #013D82 !important;
+} 
+ 
+ /*llenar informacion*/
+
+ article{
+
+ 	position: relative;
+ 	top: 100px;
+ 	right: -10px;
+     margin: 10px 0px;
+	 margin-left:1%;
+	float: left;
+	width: 79%;
+ 	padding:20px;
+ 	background: rgb(255, 255, 255);
+	border-radius:5px;
+ }
+
+ article,aside, .mensaje{
+ 	border:1px solid #ccc;
+ }
+ article a{
+
+	margin: -2px 0px;
+	display:inline-block;
+	padding: 5px;
+	color: white;
+	border-radius:5px;
+	cursor:pointer;
+	border-bottom: 3px solid rgba(0, 0, 0,.5);
+	width:auto;
+	text-decoration:none;
+	text-align:center;
+	position: relative;
+}
+.agregar{
+	
+	position: relative;
+	top: -30px;
+	font-family:relaway;
+	font-size: 18px;
+}
+article .agregar{
+	background-color: grey;
+
+}
+article .editar{
+	background:#F44336;
+}
+article .buscar{
+	background:#FF9800;
+}
+article .eliminar{
+	background:#F44336;
+}
+/*
+article .agregar:hover,.editar:hover,.buscar:hover,.eliminar:hover{
+	color:white;
+	border-bottom: 2px solid rgba(0, 0, 0,.5);
+}
+article .agregar:active,.editar:active,.buscar:active,.eliminar:active{
+	border-bottom: 1px solid rgba(0, 0, 0,.5);
+}
+
+article .agregar2:hover,.editar:hover,.buscar:hover,.eliminar:hover{
+	color:white;
+	background: #FF7655;
+	border-bottom: 2px solid rgba(0, 0, 0,.5);
+}
+
+article .agregar2:active,.editar:active,.buscar:active,.eliminar:active{
+	border-bottom: 1px solid rgba(0, 0, 0,.5);
+}
+*/
+
+.tabla{
+	position: relative;
+	top: -20px;
+
+    box-shadow: 0 0px 5px black !important;
+	width:100%;
+    margin-top: 1%;
+	border-collapse: collapse;
+}
+.tabla th{
+	background: grey;
+	padding: 5px;
+    color:white;
+}
+.centrar{
+	text-align: center;
+}
+.tabla td{
+	padding: 3px 5px;
+}
+.tabla tr:hover{
+	background:rgba(0,0,0,.05);
+}
+.tabla td,th{
+	border:1px solid black;
+}
+.mayusculas{
+	text-transform: capitalize;
+}
+
+/*los agregados*/
+
+form h2{
+	color:black;
+	font-size: 30px;
+}
+form {
+  margin: 2px auto;
+  border:1px solid #ccc;
+  padding: 15px;
+  text-align: left;
+  border-radius:5px;
+
+
+}
+
+form input, form textarea, form select {
+  border: 0;
+  outline: 0;
+  padding:12px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border:1px solid #ccc;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+width: 42%;
+    
+
+}
+
+/*agregarmedico*/
+
+
+/*form [type="submit"]:hover {
+  background: #43B8A1;
+				color: #FFF;
+*/			
+form textarea {
+  height: 120px;
+  border:1px solid #ccc;
+}
+.wrapp form h2{
+	margin-bottom: 8px;
+	text-align: center;
+	border-bottom:1px solid #ccc;
+}
+form label{
+	font-size: 1em;
+	 font-weight: bold;
+	 padding-top: 4px;
+  font-size: 13px;
+
+}
+
+footer{
+position: relative;
+top:15px;
+	float: left;
+	width: 100%;
+	background: #14BACE;
+	padding:10px 10%;
+	border:1px solid #ccc;
+	text-align: center;
+	color: #fff;
+	font-size: 1.3em;
+    box-shadow: 0 0px 5px #013D82 !important;
+}
+footer li,a{
+	text-decoration: none;
+    color: #fff;
+}
+
+footer li,a{
+	text-decoration: none;
+    color: #fff;
+}
+footer  p a:hover{
+    color: #fff;
+   text-decoration: underline;
+}
+ /*mensaje_user*/
+
+.wrapp {
+
+	font-size: 10px;
+	padding: 0% 1%;
+	margin: 10px;
+
+}
+
+.mensaje_user {
+	position: relative;
+	top: -40px;
+	
+	background: green;
+	padding:5px;
+
+	color:#fff;
+	border-radius:5px;
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 5px;
+  box-shadow: 0 0px 2px #013D82 !important;
+} 
+.mensaje_user_principal{
+	position: relative;
+top:-30px;
+}
+/*inicio user*/
+.inicio-user{
+	height: 90%;
+	position: relative;
+	top: -155px;
+}
+/*inicio user*/
+.inicio_user{
+	position: absolute;
+	top: 120px;
+	left : 280px;
+	font-size: 30px;
+}
+.inicio_user_imagen{
+	position: absolute;
+	top: 60px;
+	left : 700px;
+}
+
+
+
+@media screen and (max-width:970px ) {
+aside{
+position: relative;
+top: -270px;
+z-index: 10;
+}
+div nav {
+		width:60%;
+		height:100%;
+		left:-100%;
+		margin:0;
+		position: fixed;
+		top: 68px;
+		background-color: white;
+	}
+	div nav img{
+
+		width: 40%;
+	height: 80px;
+		margin: 0px 0px 0px 60px
+
+	}
+ 
+	div nav ul li {
+font-size: 10px;
+	display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+
+
+.icon-calendar{
+margin: 5px -30px 0px 0px;
+}
+.vista {
+	width: 180px;
+	position: relative;
+	top: 230px;
+	left: 20px;
+	height: 20px;
+}
+.vista p{
+	position: relative;
+	top: -80px;
+}
+.icon-user{
+
+}
+.vista1{
+width: 180px;
+	position: relative;
+	top: 210px;
+    left: 570px;
+	height: 20px;
+}
+.vista1 p{
+	position: relative;
+	top: -60px;
+
+}
+
+.icon-man{
+	margin: 5px -35px 0px 0px;
+}
+
+.vista2{
+    width: 180px;
+	position: relative;
+	top: 350px;
+    left: 20px;
+	height: 20px;	
+}
+.vista2 p{
+	position: relative;
+	top: -40px;
+}
+.icon-list{
+
+}
+.vista3{
+width: 180px;
+	position: relative;
+	top: 330px;
+    left: 570px;
+	height: 20px;	
+}
+.vista3 p{
+	position: relative;
+	top: -20px;
+}
+.icon-history{
+}
+.vista4{
+width: 180px;
+position: relative;
+top: 150px;
+left: 300px;
+height: 20px;	
+}
+.vista4 p{
+	position: relative;
+	top: 0px;
+}
+.icon-users{
+	margin: 0px -35px 0px 0px;
+}
+.vista5{
+width: 180px;
+position: relative;
+top: 290px;
+left: 300px;
+height: 20px;	
+}
+.vista5 p{
+position: relative;
+	top: 0px;	
+}
+.article{
+	position: relative;
+	margin: 0px 10px 0px 0px;
+	width: 97%;
+}
+	.menu_bar {
+		position: fixed;
+		top: -2px;
+		right: 1px;
+		display:block;
+		width:100%;
+		background:#ccc;
+	}
+	.menu_bar span {
+		float:right;
+		font-size:35px;
+		margin-right: -5px;
+	}
+ 
+	.menu_bar .bt-menu {
+		display:block;
+		padding:20px;
+		background:white;
+		color:#fff;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:25px;	
+	}
+	.titulo{
+	    position: static;
+		margin:0px 0px 0px -250px;
+		padding:60px 0px 0px 230px;
+        letter-spacing: 2px;
+	}
+	.container{
+		padding:0px 15px 0px 0px;
+		position: absolute;
+		margin: 100px 0px 0px -120px;
+		width: 60%;
+	}
+	h2{
+	 position: relative;
+		right: 340px;
+	}
+	article{
+      position: relative;
+      right: 10px;
+      width: 220%
+	}
+
+/*@media screen and (min-width:980px ), (max-width: 1024px) {
+article label{
+	background-color: red;
+}
+article input{
+background: red;}
+/*aside{
+	width: 23%;
+	position: relative;
+	top: -70;
+	height: 100%;
+}/*
+.menu_bar{
+	
+	background: white;
+	display:block;
+	width:100%;
+}
+.menu_bar span {
+		float:right;
+		font-size:35px;
+		margin-right: -5px;
+	}
+.menu_bar .bt-menu {
+		display:block;
+		padding:20px;
+		background:white;
+		color:#fff;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:25px;	
+	}
+.container{
+	position: relative;
+	left: 380px;
+}*/
+
+}
+
